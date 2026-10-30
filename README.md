@@ -24,17 +24,7 @@ O objetivo é facilitar o gerenciamento de livros, permitindo o cadastro, a cons
 ## Banco de dados
 
 
-CREATE DATABASE biblioteca;
 
-USE biblioteca;
-
-CREATE TABLE livros (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-        titulo VARCHAR(100),
-            autor VARCHAR(100),
-                ano INT,
-                    disponivel BOOLEAN
-                    );
 
 ## Autores
 
